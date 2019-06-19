@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("img/ps6.jpg") center/cover fixed no-repeat;
+}
+
+.mx-auto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title-heading{
+    color:green;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.title-subheading{
+    color:white;
+    padding:20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.customer-card{
+    border: 2px solid black;
+    width: 400px;
+    height:130px;
+    padding: 30px;
+    margin-top:40px; 
+}
+
+#customer-img{
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+#customer-name{
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.review-icon{
+    color: orange;
+    padding: 10px;
+}
+
+.btn{
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.buttons{
+    margin-top:-100px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.preBtn{
+    margin-left: -30px;
+}
+.nextBtn{
+    margin-right: -30px;
+}
+
+
+
